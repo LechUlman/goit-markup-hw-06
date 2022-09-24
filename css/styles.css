@@ -600,7 +600,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 448px;
-
+  height: 478px;
   margin: 2px auto 0px;
 }
 .label-box-heading {
@@ -685,8 +685,8 @@ img {
   border-radius: 3px;
   display: block;
   content: "";
-  left: 0px;
-  top: 3px;
+  left: -2px;
+  top: 2px;
   cursor: pointer;
 }
 input:checked + .tick {
@@ -747,15 +747,15 @@ input:checked + .tick {
   position: absolute;
 }
 .icon-vector {
-  top: 109px;
+  top: 105px;
   left: 55px;
 }
 .icon-phone {
-  top: 178px;
+  top: 170px;
   left: 55px;
 }
 .icon-vector-1 {
-  top: 245px;
+  top: 235px;
   left: 52px;
 }
 /* end section of backdrop */
