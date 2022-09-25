@@ -155,7 +155,9 @@ img {
   width: 200px;
   height: 50px;
 }
-
+.top-section-button:hover {
+  background-color: #1a78c2;
+}
 /* top section portfolio */
 .portfolio-top-section {
   margin: 94px 215px;
