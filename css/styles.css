@@ -594,14 +594,15 @@ img {
   border-color: var(--blue);
   cursor: pointer;
   transition: var(--transition);
+  background-color: var(--blue);
 }
 .close-modal-button:active {
   color: var(--blue);
   border-color: var(--blue);
   cursor: pointer;
   transition: var(--transition);
+  background-color: var(--blue);
 }
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
