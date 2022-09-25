@@ -580,10 +580,12 @@ img {
 .modal-btn:hover {
   border: 1px solid var(--blue);
   color: var(--blue);
+  background-color: var(--blue);
 }
 .modal-btn:active {
   border: 1px solid var(--blue);
   color: var(--blue);
+  background-color: var(--blue);
 }
 .close-modal-button {
   width: 15px;
@@ -594,14 +596,12 @@ img {
   border-color: var(--blue);
   cursor: pointer;
   transition: var(--transition);
-  background-color: var(--blue);
 }
 .close-modal-button:active {
   color: var(--blue);
   border-color: var(--blue);
   cursor: pointer;
   transition: var(--transition);
-  background-color: var(--blue);
 }
 .is-hidden {
   opacity: 0;
