@@ -575,11 +575,33 @@ img {
   height: 30px;
   padding: 4px 0px 0px 0px;
   margin: 0;
+  cursor: pointer;
+}
+.modal-btn:hover {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+.modal-btn:active {
+  border: 1px solid var(--blue);
+  color: var(--blue);
 }
 .close-modal-button {
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
 }
+.close-modal-button:hover {
+  color: var(--blue);
+  border-color: var(--blue);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.close-modal-button:active {
+  color: var(--blue);
+  border-color: var(--blue);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
